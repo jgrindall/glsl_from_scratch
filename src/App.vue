@@ -1,10 +1,10 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link>
-  </nav>
   <router-view/>
 </template>
 
 <style>
-
+ body{
+  padding:0;
+  margin:0;
+ }
 </style>
