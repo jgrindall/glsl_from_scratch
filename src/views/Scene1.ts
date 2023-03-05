@@ -9,7 +9,7 @@ type SceneUniform = {
   u_mouse: IUniform<THREE.Vec2>
 }
 
-export default class Scene{
+export default class Scene1{
   
   scene: THREE.Scene
   camera:THREE.OrthographicCamera

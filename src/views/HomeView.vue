@@ -6,12 +6,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Scene from "./Scene"
+import Scene1 from "./Scene1"
+import Scene2 from "./Scene2"
+import Scene3 from "./Scene3"
 
 export default defineComponent({
   name: 'HomeView',
   mounted(){
-    new Scene(this.$el)
+    new Scene3(this.$el)
   },
   components: {
 
